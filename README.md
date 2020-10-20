@@ -75,4 +75,9 @@ Functions with short description
     
     > Creates shareable link information for current day
 
+# Ideas
+
+Gitmoji integration
+
+> https://gitmoji.carloscuesta.me/
 
