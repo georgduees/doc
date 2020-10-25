@@ -80,4 +80,3 @@ Functions with short description
 Gitmoji integration
 
 > https://gitmoji.carloscuesta.me/
-> Test
