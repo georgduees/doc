@@ -1,4 +1,4 @@
-package doc
+package main
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ func main() {
 	commando.
 		Register(nil).
 		SetAction(func(args map[string]commando.ArgValue, flags map[string]commando.FlagValue) {
-			fmt.Printf("Printing options of the `root` command...\n\n")
+			fmt.Printf("Printing options of the `doc` command...\n\n")
 
 			// print arguments
 			for k, v := range args {
@@ -28,7 +28,7 @@ func main() {
 		SetShortDescription("initialize in current repository").
 		SetDescription("This command initiates the DaysOfCode Helper structure in the current directory.").
 		SetAction(func(args map[string]commando.ArgValue, flags map[string]commando.FlagValue) {
-			fmt.Printf("Printing options of the `info` command...\n\n")
+			fmt.Printf("Printing options of the `init` command...\n\n")
 
 			// print arguments
 			for k, v := range args {
